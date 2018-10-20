@@ -4,3 +4,4 @@ project(cpp_study)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(cpp_study main.cpp)
+add_executable(set set.cpp)
