@@ -9,8 +9,13 @@ int main() {
     set<string> myset;
     myset.insert("hello");
 
-    myset.insert("world");
-    myset.insert("world"); // duplicate value is ignored
+    auto result = myset.insert("world");
+    cout << *result.first << endl; // world
+    cout << result.second << endl; // true
+
+    result = myset.insert("world"); // duplicate value is ignored
+    cout << *result.first << endl; // world
+    cout << result.second << endl; // false
 
     myset.insert("!");
 
