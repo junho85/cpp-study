@@ -3,5 +3,7 @@ project(cpp_study)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cpp_study main.cpp)
+add_executable(cpp_study main.cpp sort.cpp)
+add_executable(sort sort.cpp)
 add_executable(set set.cpp)
+add_executable(helloworld helloworld.cpp)
