@@ -7,3 +7,6 @@ add_executable(cpp_study main.cpp sort.cpp)
 add_executable(sort sort.cpp)
 add_executable(set set.cpp)
 add_executable(helloworld helloworld.cpp)
+
+add_subdirectory(c_cpp_sample)
+add_subdirectory(jansson_json)
