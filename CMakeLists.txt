@@ -10,3 +10,4 @@ add_executable(helloworld helloworld.cpp)
 
 add_subdirectory(c_cpp_sample)
 add_subdirectory(jansson_json)
+add_subdirectory(libcurl)
