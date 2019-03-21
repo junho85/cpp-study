@@ -1,0 +1,5 @@
+add_executable(strcat strcat.cpp)
+add_executable(merge_two_array merge_two_array.cpp)
+add_executable(search search.cpp)
+add_executable(indexof indexof.cpp)
+add_executable(map map.cpp)
